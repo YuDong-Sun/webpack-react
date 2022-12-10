@@ -4280,10 +4280,20 @@ lodash.debounce@^4.0.0, lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
+lodash.endswith@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/lodash.endswith/-/lodash.endswith-4.2.1.tgz#fed59ac1738ed3e236edd7064ec456448b37bc09"
+  integrity sha512-pegckn1D2ohyUKt7OHrp7GpJVNnndjE+FpzULQ0pjQvbjdktdWGmKVth5wdSYWHzQSZA7OSGbIo0/AuwTeX1pA==
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
+lodash.startswith@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/lodash.startswith/-/lodash.startswith-4.2.1.tgz#c598c4adce188a27e53145731cdc6c0e7177600c"
+  integrity sha512-XClYR1h4/fJ7H+mmCKppbiBmljN/nGs73iq2SjCT9SF4CBPoUHzLvWmH1GtZMhMBZSiRkHXfeA2RY1eIlJ75ww==
 
 lodash.throttle@^4.0.0:
   version "4.1.1"
@@ -5788,9 +5798,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -7248,6 +7258,15 @@ style-loader@^1.0.1:
   dependencies:
     loader-utils "^1.2.3"
     schema-utils "^2.0.1"
+
+style-url-loader@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/style-url-loader/-/style-url-loader-0.1.6.tgz#1c14be8bf9449862d27d1cbc57984a3c2504646b"
+  integrity sha512-NnUAtpJwOzk/Yngr6AK++rOEVFrfkEO2IbQV4IHI8sWTAXkqlLYcCYPa4E8TE5TR4O0HtwWgXM3AMM4W42GYAQ==
+  dependencies:
+    loader-utils "^1.1.0"
+    lodash.endswith "^4.2.1"
+    lodash.startswith "^4.2.1"
 
 stylehacks@^4.0.0:
   version "4.0.3"
